@@ -1,0 +1,11 @@
+@media (min-width: 400px) {
+}
+
+@media (min-width: 600px) {
+  .name-desktop {
+    display: contents;
+  }
+  .name-mobile {
+    display: none;
+  }
+}

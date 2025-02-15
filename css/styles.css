@@ -1,0 +1,138 @@
+/* Global */
+
+@font-face {
+  font-family: Playfair Display;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-VariableFont_wdth\wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Slackey;
+  src: url(../fonts/Slackey/Slackey-Regular.ttf) format("truetype");
+}
+
+h1 {
+  font-family: Playfair Display;
+  font-size: 3em;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 2em;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3,
+h4,
+h5,
+p {
+  font-family: Roboto;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header */
+
+.header-logo {
+  max-width: 5em;
+  border-radius: 50%;
+}
+
+.name-desktop {
+  display: none;
+  left: 0px;
+}
+
+.name-mobile {
+  left: 0px;
+}
+
+.header-mobile {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+
+  position: sticky;
+  font-size: large;
+  z-index: 10;
+  border-radius: 0px 0px 25px 25px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 80px;
+  z-index: 11;
+  background-color: #ffffff;
+  right: 0px;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.19), 0 10px 6px rgba(0, 0, 4, 0.23);
+}
+
+nav li {
+  list-style-type: none;
+  padding: 0 2em 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.hamburger-text {
+  color: #000000;
+  text-align: left;
+  font-size: large;
+}
+
+/* Buttons */
+
+.cta {
+  background-color: #40a650;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #3e704a;
+  transition: 0.7s;
+}
