@@ -1,16 +1,42 @@
 .hero {
-  background-image: url(../images/hero.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
+  z-index: 1;
 }
 
 .explore-together {
-  padding: 10px;
-  margin: 50px;
+  padding: 25px;
+  margin: 15%;
+  background-color: #fff;
+  border-radius: 0px 25px 25px 25px;
+}
+
+.explore-together h2,
+.explore-together p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.sidekick {
+  padding: 10vh 0 5vh 0;
+  margin: 10%;
+  text-align: left;
+}
+
+.landing-explore {
+  padding: 25px;
+  background-color: #f1f1f1;
+}
+
+.landing-explore img {
+  height: 150px;
+  border-radius: 25px 25px 25px 0px;
+  float: right;
+}
+
+.landing-explore-content {
+  text-align: left;
+  margin: auto;
+}
+
+.landing-explore-content .cta {
+  margin: auto;
 }
