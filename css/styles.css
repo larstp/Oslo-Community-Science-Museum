@@ -37,11 +37,8 @@ h2 {
   margin-top: 20px;
 }
 
-h3,
-h4,
-h5,
 p {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   text-align: center;
   margin-top: 20px;
@@ -52,6 +49,10 @@ body {
 }
 
 /* Header */
+
+header {
+  background-color: #fff;
+}
 
 .header-logo {
   max-width: 5em;
@@ -70,7 +71,6 @@ body {
 .header-mobile {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-
   position: sticky;
   font-size: large;
   z-index: 10;
@@ -96,8 +96,12 @@ nav {
 }
 
 nav li {
-  list-style-type: none;
   padding: 0 2em 10px 0;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 a {
@@ -119,6 +123,91 @@ a {
   font-size: large;
 }
 
+/* Footer */
+
+.top-footer-desktop {
+  display: none;
+}
+
+.top-footer-mobile {
+  position: relative;
+  display: grid;
+  background-color: #103c47;
+  color: #fff;
+  z-index: 9;
+  padding-bottom: 2em;
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0 -6px 10px rgba(0, 0, 0, 0.23);
+}
+
+.top-footer-mobile a,
+.top-footer-mobile p,
+.top-footer-desktop a,
+.top-footer-desktop p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-links-left {
+  color: #fff;
+  grid-column: 1;
+  padding-left: 10px;
+  position: absolute;
+}
+
+.footer-links-left:hover {
+  text-decoration: underline;
+}
+
+.footer-links-right {
+  grid-column: 3;
+  text-align: right;
+  max-width: 15ch;
+  right: 10px;
+  padding-left: 0;
+  position: absolute;
+}
+
+.footer-links-center {
+  grid-column: 2;
+  padding-bottom: 2em;
+  margin: left;
+  text-align: left;
+}
+
+.footer-links-center p {
+  text-align: left;
+}
+
+.bottom-footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #103c47;
+  color: #ffffff;
+  z-index: 9;
+}
+
+.bottom-footer a {
+  color: #ffffff;
+}
+
+.social-logos {
+  font-size: x-large;
+}
+
+.copyright {
+  position: relative;
+  font-size: 0.8em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #103c47;
+  color: #ffffff;
+  padding-top: 1em;
+  z-index: 9;
+}
+
 /* Buttons */
 
 .cta {
@@ -132,7 +221,24 @@ a {
   font-weight: bold;
 }
 
-.cta:hover {
-  background-color: #3e704a;
-  transition: 0.7s;
+.cta-contrast {
+  background-color: #db6c41;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.cta-footer {
+  background-color: #db6c41;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: small;
+  margin: auto;
 }

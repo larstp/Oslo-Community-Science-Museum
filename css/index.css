@@ -1,0 +1,16 @@
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.explore-together {
+  padding: 10px;
+  margin: 50px;
+}
