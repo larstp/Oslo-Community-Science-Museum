@@ -21,7 +21,7 @@ https://www.figma.com/proto/NSk6DcGam0t8CFTEnpJ6B2/Community-Science-Museum?page
 Here's the Figma prototype for the desktop vesion:
 https://www.figma.com/proto/NSk6DcGam0t8CFTEnpJ6B2/Community-Science-Museum?page-id=0%3A1&node-id=23-154&viewport=228%2C120%2C0.11&t=PwOO4lpgwm8r68Vq-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=23%3A154
 
-Here's the Figma prototype for the high fidelity wireframes (includes both desktop and mobile versions. A bit fiddly due to time constraints):
+Here's the Figma prototype for the high fidelity wireframes (includes both desktop and mobile versions. (A bit fiddly due to time constraints):
 https://www.figma.com/proto/NSk6DcGam0t8CFTEnpJ6B2/Community-Science-Museum?page-id=1%3A4&node-id=1-5&viewport=50%2C270%2C0.4&t=q8RU30LNH2h4Nr3h-1&scaling=contain&content-scaling=fixed
 
 
