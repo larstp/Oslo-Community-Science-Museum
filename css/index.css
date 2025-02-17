@@ -1,24 +1,34 @@
 .hero {
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+  height: 105vh;
 }
 
 .explore-together {
-  padding: 25px;
-  margin: 15%;
   background-color: #fff;
   border-radius: 0px 25px 25px 25px;
+  padding: 20px;
+  margin: auto;
 }
 
 .explore-together h2,
 .explore-together p {
   font-size: 16px;
   text-align: left;
+  max-width: 85ch;
 }
 
 .sidekick {
-  padding: 10vh 0 5vh 0;
-  margin: 10%;
   text-align: left;
+  padding: 40px;
+  max-width: 85ch;
+  border-radius: 25px 25px 0px 25px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  object-fit: cover;
 }
 
 .landing-explore {
@@ -32,11 +42,96 @@
   float: right;
 }
 
-.landing-explore-content {
-  text-align: left;
+.landing-explore-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  margin: auto;
+  max-width: 67ch;
+}
+
+.landing-explore-container a {
   margin: auto;
 }
 
-.landing-explore-content .cta {
+.landing-explore-content {
+  text-align: left;
   margin: auto;
+  max-width: 77ch;
+}
+
+.landing-spaces {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  margin: auto;
+  max-width: 67ch;
+  gap: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.landing-spaces h1 {
+  text-align: center;
+}
+
+.carousel-wrapper {
+  position: relative;
+  max-width: 48rem;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 12/10;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  height: 350px;
+  margin: auto;
+  border-radius: 25px 0 25px 25px;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  padding: 10px;
+  bottom: -40px;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #40a650;
+  opacity: 0.5;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+.landing-events {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  margin: auto;
+  max-width: 67ch;
+  gap: 20px;
 }

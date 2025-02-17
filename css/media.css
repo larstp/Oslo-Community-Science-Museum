@@ -1,7 +1,4 @@
 @media (min-width: 400px) {
-  .sidekick {
-    padding-top: 60%;
-  }
 }
 
 @media (min-width: 600px) {
@@ -29,8 +26,12 @@
   }
 }
 
-@media (min-width: 600px) {
-  .sidekick {
-    padding-top: 20%;
+@media (min-width: 1200px) {
+  .landing-explore img {
+    height: 478px;
+    border-radius: 25px 25px 25px 0px;
+  }
+
+  .landing-explore-content {
   }
 }
