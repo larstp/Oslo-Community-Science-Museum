@@ -1,0 +1,9 @@
+.cta-kids {
+  background: video url("../videos/nebula/colorful-nebula-small.webm");
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}

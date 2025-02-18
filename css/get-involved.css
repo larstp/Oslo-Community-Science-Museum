@@ -1,0 +1,87 @@
+.involved-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  gap: 30px;
+  padding: 25px;
+}
+
+.involved-hero > * {
+  margin: auto;
+}
+
+.involved-top-image img {
+  max-height: 410px;
+  max-width: 100%;
+  margin: auto;
+  border-radius: 0px 50px 50px 50px;
+}
+
+.involved-h1-desktop {
+  display: none;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  background-color: #f9f9f9;
+  grid-column: 1;
+}
+
+.internship {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  grid-column: 2;
+}
+
+.volunteer {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  background-color: #f9f9f9;
+  grid-column: 1;
+}
+
+.volunteer-img-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 25px;
+  grid-column: 2;
+  max-width: 259px;
+  margin: auto;
+}
+
+.volunteer-img {
+  max-height: 510px;
+  width: 100%;
+  margin: auto;
+  border-radius: 0px 50px 50px 50px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: Xx-large;
+  text-align: left;
+  max-width: 32ch;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  max-width: 38ch;
+  font-size: medium;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  max-width: 70ch;
+}
