@@ -1,0 +1,34 @@
+.teachers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding: 1em;
+  margin: auto;
+  max-width: 68ch;
+  position: relative;
+}
+
+.teachers-hero {
+  max-height: 385px;
+  max-width: 100%;
+  margin: auto;
+}
+
+h1,
+h3 {
+  font-size: x-large;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
+
+h2 {
+  font-size: medium;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+}
+
+p {
+  max-width: 70ch;
+  font-family: "Roboto", sans-serif;
+}

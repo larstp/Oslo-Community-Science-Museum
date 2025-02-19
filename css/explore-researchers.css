@@ -1,0 +1,46 @@
+.researchers-desktop {
+  display: none;
+}
+
+.researchers-mobile {
+  width: 310px;
+  height: 352px;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+}
+
+.researchers-hero {
+  width: 139px;
+  height: 98px;
+  position: absolute;
+  left: 189px;
+  top: 118px;
+  border-radius: 0px 25px 25px 25px;
+}
+
+.researchers-text {
+  position: absolute;
+}
+
+.researchers-mobile h2 {
+  width: 150px;
+  height: 149px;
+  position: absolute;
+  left: 0px;
+  top: 53px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+}
+
+.researchers-mobile p {
+  width: 300px;
+  height: 113px;
+  position: absolute;
+  left: 0px;
+  top: 239px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+}

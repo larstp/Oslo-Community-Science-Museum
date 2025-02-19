@@ -24,6 +24,37 @@
   .top-footer-mobile {
     display: none;
   }
+
+  .teachers-hero-desktop {
+    float: right;
+  }
+
+  .teachers-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .teachers-text {
+    float: left;
+  }
+
+  .researcher-content-desktop {
+    display: block;
+  }
+
+  .researcher-content-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .researchers-mobile {
+    display: none;
+  }
+
+  .researchers-desktop {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
