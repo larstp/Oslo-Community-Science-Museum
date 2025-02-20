@@ -5,10 +5,12 @@
   position: relative;
   gap: 30px;
   padding: 25px;
+  top: 100px;
 }
 
 .involved-hero > * {
   margin: auto;
+  line-height: 33px;
 }
 
 .involved-top-image img {
@@ -67,6 +69,7 @@ h1 {
   font-size: Xx-large;
   text-align: left;
   max-width: 32ch;
+  line-height: 1px;
 }
 
 h2 {

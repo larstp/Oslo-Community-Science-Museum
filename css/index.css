@@ -1,9 +1,19 @@
+h1 {
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: large;
+  font-weight: 400;
+}
+
 .hero {
   z-index: 1;
   display: flex;
   justify-content: center;
   padding: 0 20px 0 20px;
-  height: 105vh;
+  height: 175vh;
 }
 
 .explore-together {
@@ -11,6 +21,8 @@
   border-radius: 0px 25px 25px 25px;
   padding: 20px;
   margin: auto;
+  top: 130px;
+  position: relative;
 }
 
 .explore-together h2,
@@ -32,8 +44,11 @@
 }
 
 .landing-explore {
-  padding: 25px;
+  padding: 75px;
+  position: relative;
   background-color: #f1f1f1;
+  bottom: -90px;
+  z-index: -3;
 }
 
 .landing-explore img {
@@ -59,6 +74,12 @@
   text-align: left;
   margin: auto;
   max-width: 77ch;
+}
+
+.landing-explore-button {
+  margin: auto;
+  width: 260px;
+  padding-bottom: 90px;
 }
 
 .landing-spaces {

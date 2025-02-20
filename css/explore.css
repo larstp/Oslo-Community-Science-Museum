@@ -1,9 +1,105 @@
-.cta-kids {
-  background: video url("../videos/nebula/colorful-nebula-small.webm");
+.explore-hero {
+  max-width: 70ch;
+  margin: auto;
+  padding: 70px;
+  top: 80px;
+  position: relative;
+}
+
+.explore-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.explore-content {
+}
+
+.explore-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50px 50px 0px 50px;
+  margin: auto;
+}
+
+.kids-section {
+  font-family: "Slackey", cursive !important;
+}
+
+.explore-buttons {
+  width: 283px;
+  padding: 10px;
+  margin: auto;
+}
+
+/* The youtube video made this look so simple but i beg to differ. Didn't manage on-hover effect */
+
+.cta-teachers {
+  position: relative;
+  background-color: #40a650;
   color: #fff;
-  padding: 20px;
+  padding: 23px 93px;
   text-align: center;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.cta-researchers {
+  position: relative;
+  background-color: #40a650;
+  color: #fff;
+  padding: 23px 81px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.cta-image {
+  position: relative;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px 100px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.cta-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url("../images/rocket-ship-min.jpg") no-repeat center center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.cta-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
 }

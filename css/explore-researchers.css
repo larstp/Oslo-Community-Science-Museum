@@ -2,6 +2,15 @@
   display: none;
 }
 
+.researchers-hero-desktop {
+  display: none;
+}
+
+.researchers-full {
+  position: relative;
+  top: 100px;
+}
+
 .researchers-mobile {
   width: 310px;
   height: 352px;
@@ -43,4 +52,56 @@
   font-size: 16px;
   letter-spacing: 0.1px;
   word-wrap: break-word;
+}
+
+.researchers-logos-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 290px;
+}
+
+.researchers-logos-top img {
+  width: auto;
+  max-height: 90px;
+  flex: 1 1 calc(33.33% - 20px);
+  margin: 10px;
+  object-fit: contain;
+}
+
+.researchers-logos-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 290px;
+}
+
+.researchers-logos-bottom img {
+  width: auto;
+  max-height: 90px;
+  flex: 1 1 calc(50% - 20px);
+  margin: 10px;
+  object-fit: contain;
+}
+
+.name {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  flex: 1 1 calc(33.33% - 20px);
+  justify-content: center;
+  text-align: center;
+}
+
+.researchers-images {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  margin: auto;
+  max-width: 90ch;
+}
+
+.researchers-logos {
+  position: relative;
 }

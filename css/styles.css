@@ -1,23 +1,23 @@
 /* Global */
 
 @font-face {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
     format("truetype");
 }
 
 @font-face {
-  font-family: Poppins;
+  font-family: "Poppins";
   src: url(../fonts/Poppins/Poppins-Light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-VariableFont_wdth\wght.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: Slackey;
+  font-family: "Slackey";
   src: url(../fonts/Slackey/Slackey-Regular.ttf) format("truetype");
 }
 
@@ -29,6 +29,7 @@ h1 {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.1px;
+  line-height: normal;
 }
 
 h2 {
@@ -60,7 +61,11 @@ p {
 }
 
 body {
-  margin: 0;
+  margin: 0 !important;
+}
+
+.current {
+  text-decoration: underline !important;
 }
 
 /* Header */
@@ -78,18 +83,34 @@ header {
 .name-desktop {
   display: none;
   left: 0px;
+  font-size: large;
+  font-family: "Playfair Display", serif;
+}
+
+.header-desktop {
+  display: none;
+  top: 0px;
+}
+
+.header-text {
+  width: 100%;
+  height: 1em;
+  margin: auto;
 }
 
 .name-mobile {
   left: 0px;
+  font-size: large;
 }
 
 .header-mobile {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  position: sticky;
+  position: fixed;
   font-size: large;
+  width: 100%;
   z-index: 10;
+  top: 0px;
   border-radius: 0px 0px 25px 25px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -101,7 +122,7 @@ header {
   font-family: "Playfair Display", serif;
 }
 
-nav {
+.header-mobile nav {
   display: none;
   position: fixed;
   top: 80px;
@@ -258,4 +279,41 @@ a {
   font-weight: bold;
   font-size: small;
   margin: auto;
+}
+
+.cta-explore {
+  position: relative;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px 100px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.cta-explore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 1.5);
+}
+
+.cta-explore video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+  pointer-events: none;
 }
