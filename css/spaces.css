@@ -1,0 +1,42 @@
+.spaces-hero {
+  max-width: 70ch;
+  margin: auto;
+  padding: 70px;
+  top: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.spaces-hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 45px;
+  text-align: left;
+}
+
+.head-exhibitions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.exhibitions-top {
+  width: 300px;
+}
+
+.exhibitions-top img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50px 50px 0px 50px;
+  margin: auto;
+}
+
+.cosmology {
+}
