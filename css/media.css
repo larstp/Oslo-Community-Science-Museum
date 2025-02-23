@@ -75,6 +75,18 @@
   .researcher-content-mobile {
     display: none;
   }
+
+  .map-mobile {
+    display: none;
+  }
+
+  .map-desktop {
+    display: block;
+  }
+
+  .tickets {
+    top: 50px;
+  }
 }
 
 @media (min-width: 800px) {
@@ -199,5 +211,13 @@
 
   .info-color {
     background-color: #f9f9f9;
+  }
+
+  .find-us {
+    display: block;
+  }
+
+  .upcoming {
+    display: flex;
   }
 }

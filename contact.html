@@ -85,15 +85,118 @@
       </section>
     </header>
     <main>
-      <section class="tickets">
-        <h1>Tickets</h1>
-        <h2>*We also sell tickets in the reception</h2>
-        <div class="ticket-form"></div>
+      <section class="contact-top">
+        <section class="tickets">
+          <section class="tickets-container">
+            <h1>Tickets</h1>
+            <h2>*We also sell tickets in the reception</h2>
+            <section class="ticket">
+              <form method="post">
+                <div class="ticket__fieldset">
+                  <section>
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" />
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" />
+                    <label for="email">Phone number</label>
+                    <input type="phone" id="phone" name="phone" />
+                  </section>
+                  <section>
+                    <select name="ticket-type" id="types" class="cta-size">
+                      <option value="Select">Ticket type...*</option>
+                      <option value="Small">Children</option>
+                      <option value="Medium">Adults</option>
+                      <option value="Large">Students</option>
+                      <option value="Extra Large">Seniors</option>
+                    </select>
+                  </section>
+                  <p>Choose ticket amount in the checkout menu</p>
+                  <section>
+                    <div>
+                      <input
+                        type="checkbox"
+                        name="newsletter"
+                        id="newsletter"
+                        value="newsletter"
+                      />
+                      <label for="newsletter">Sign up for our newsletter</label>
+                    </div>
+                  </section>
+                  <section>
+                    <a href="placeholder.html" class="cta">Buy tickets</a>
+                  </section>
+                </div>
+              </form>
+            </section>
+            <div class="ticket-form"></div>
+          </section>
+        </section>
+        <section class="contact">
+          <section class="contact-container">
+            <h1>Contact us!</h1>
+            <h2>We’d love to hear from you!</h2>
+            <section class="contacting">
+              <form method="post">
+                <div class="contact__fieldset">
+                  <p>Please select why you are contacting us</p>
+                  <select name="ticket-type" id="types" class="cta-size">
+                    <option value="Select">Select</option>
+                    <option value="Children">Booking</option>
+                    <option value="Adults">Collaborating</option>
+                    <option value="Students">General questions</option>
+                  </select>
+                  <section>
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" />
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" />
+                    <label for="email">Phone number</label>
+                    <input type="phone" id="phone" name="phone" />
+                  </section>
+                  <section></section>
+                  <div class="contact__fieldset">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                  </div>
+                  <section>
+                    <a href="placeholder.html" class="cta">Send</a>
+                  </section>
+                </div>
+              </form>
+            </section>
+            <div class="ticket-form"></div>
+          </section>
+        </section>
       </section>
-      <section class="contact">
-        <h3>Contact us</h3>
-        <h2>We’d love to hear from you!</h2>
-        <div class="contact-form"></div>
+      <!-- Seeing as we haven't touched calendars, and it seems like making one does require JS, I've opted to insert a google calendar link here instead. This would be replaced with a proper calendar interface. -->
+      <section class="contact-bottom">
+        <div class="upcoming">
+          <div class="contact-bottom-text">
+            <h3>Take a look at our upcoming events</h3>
+            <h4>Astro-Dino returns!</h4>
+            <p>
+              And he’s brought his friends with him! Come visit us between June
+              16th - October 20th to take part in another crazy-qwerky science
+              filled day in the auditorium at the “secret underground dino-lab”.
+              Ask your teachers or parents for more info!
+            </p>
+          </div>
+          <div>
+            <img
+              src="images/science-dino-min.jpg"
+              alt="Ima of Dr. Astro I. Dino"
+            />
+          </div>
+        </div>
+        <div class="calendar-container">
+          <iframe
+            class="calendar"
+            src="https://calendar.google.com/calendar/embed?src=gb1fjh6kfbjhhv8qdt3uk9ja27hrd6ke%40import.calendar.google.com&ctz=Europe%2FOslo"
+            style="border: 0"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
       </section>
     </main>
     <footer></footer>

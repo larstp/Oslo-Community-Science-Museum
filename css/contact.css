@@ -1,0 +1,167 @@
+/* Ticket Form */
+
+label {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.tickets {
+  max-width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.ticket__fieldset {
+  border: #fff;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  width: 238px;
+}
+
+.ticket__fieldset > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket a {
+  display: block;
+  text-align: center;
+  max-width: fit-content;
+}
+
+.tickets p {
+  font-size: x-small;
+  margin: auto;
+}
+
+/* Contact Form */
+
+.contact {
+  max-width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.contact__fieldset {
+  border: #fff;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 25px;
+  width: 238px;
+}
+
+.contact__fieldset > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacting {
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+}
+
+textarea {
+  field-sizing: content;
+}
+
+.contact a {
+  display: block;
+  text-align: center;
+  max-width: fit-content;
+}
+
+.contact p {
+  font-size: x-small;
+  margin: auto;
+}
+
+/* Top Part */
+
+.contact-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: top;
+  margin: auto;
+  width: 100%;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+/* Bottom Part */
+
+.contact-bottom {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+}
+
+.calendar-container {
+  height: 190px;
+  width: 300px;
+  margin: auto;
+}
+
+.calendar {
+  position: relative;
+  width: 300px;
+  max-height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.contact-bottom-text {
+  max-width: 45ch;
+}
+
+.upcoming {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+  gap: 40px;
+  margin: auto;
+  width: 100%;
+}
+
+.upcoming img {
+  max-width: 200px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 25px;
+  align-self: bottom;
+}
+
+.upcoming h3 {
+  font-size: x-large;
+}
