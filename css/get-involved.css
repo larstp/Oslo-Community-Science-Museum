@@ -58,8 +58,8 @@
 }
 
 .volunteer-img {
-  max-height: 510px;
-  width: 100%;
+  max-height: 300px;
+  max-width: 300px;
   margin: auto;
   border-radius: 0px 50px 50px 50px;
 }

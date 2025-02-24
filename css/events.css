@@ -52,6 +52,11 @@
   padding: 50px;
 }
 
+.events {
+  top: 100px;
+  position: relative;
+}
+
 .events div {
   display: flex;
   flex-direction: column;
