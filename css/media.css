@@ -198,3 +198,9 @@
     display: flex;
   }
 }
+
+@media (min-width: 1350px) {
+  .planets-container {
+    display: flex;
+  }
+}
