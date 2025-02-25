@@ -1,0 +1,154 @@
+html {
+  background-color: #103c47;
+}
+
+.explore-hero {
+  height: 500px;
+}
+
+.awesome-container {
+  padding-bottom: 50px;
+}
+
+.awesome {
+  max-width: 246px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  padding: 50px;
+  background-color: white;
+  border-radius: 25px 25px 25px 0px;
+}
+
+.awesome h3,
+.stars h3,
+.holiday h3 {
+  font-family: "Slackey", cursive;
+  font-size: 2em;
+  line-height: 30px;
+  text-align: center;
+}
+
+.awesome img {
+  max-width: 89px;
+  max-height: 98px;
+}
+
+.newtons-cradle {
+  float: left;
+}
+
+.woolly-mammoth {
+  float: right;
+}
+
+/*--------------*/
+
+.stars {
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.stars-text {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  max-width: 217px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px 25px 0px 25px;
+}
+
+.stars-text p,
+.stars-text h3 {
+  position: relative;
+  padding: 10px;
+}
+
+.stars-text-container {
+  position: relative;
+  left: 20px;
+  padding-right: 100px;
+}
+
+.holiday {
+  padding: 30px;
+}
+
+.holiday h3,
+.holiday p {
+  color: white;
+}
+
+.holiday-header img {
+  float: left;
+  width: 100%;
+  height: 217px;
+  position: relative;
+  border-radius: 25px 25px 275px 25px;
+  padding-bottom: 20px;
+}
+
+.holiday-header h3 {
+  float: right;
+  max-width: 7ch;
+}
+
+.kids-cta-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+--------- .landing-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+  top: 80px;
+}
+
+.landing-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.explore-together-top,
+.explore-together-bottom {
+  background-color: white;
+  border-radius: 25px 0px 25px 25px;
+}
+
+.explore-together-top,
+.explore-together-bottom {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  max-width: 75ch;
+  padding: 5px;
+}
+
+.explore-together-top h1,
+.explore-together-top h2,
+.explore-together-bottom p {
+  position: relative;
+  padding: 10px;
+}

@@ -47,6 +47,8 @@
   margin: auto;
   overflow: hidden;
   display: inline-block;
+  width: 100px;
+  height: 18px;
 }
 
 .cta-researchers {
@@ -61,6 +63,8 @@
   margin: auto;
   overflow: hidden;
   display: inline-block;
+  width: 90px;
+  height: 18px;
 }
 
 .cta-image {
@@ -75,6 +79,8 @@
   margin: auto;
   overflow: hidden;
   display: inline-block;
+  width: 90px;
+  height: 18px;
 }
 
 .cta-image::before {
