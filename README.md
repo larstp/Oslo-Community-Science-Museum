@@ -1,5 +1,6 @@
 # Oslo Community Science Museum
-![open-science-readme2](https://github.com/user-attachments/assets/3ef66310-878d-4f6c-9231-75fca73f666a)
+
+![open-science-readme2](https://github.com/user-attachments/assets/7e6efc08-d5bd-4a8f-adcf-80d59f34cf38)
 
 ### An engaging, informative, and user-friendly website for a new interactive science museum opening in my city.
 
