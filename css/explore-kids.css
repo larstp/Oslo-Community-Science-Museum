@@ -2,12 +2,8 @@ html {
   background-color: #103c47;
 }
 
-.explore-hero {
-  height: 500px;
-}
-
 .awesome-container {
-  padding-bottom: 50px;
+  padding: 100px 30px;
 }
 
 .awesome {
@@ -16,7 +12,7 @@ html {
   justify-content: center;
   margin: auto;
   flex-direction: column;
-  padding: 50px;
+  padding: 30px;
   background-color: white;
   border-radius: 25px 25px 25px 0px;
 }
@@ -48,7 +44,7 @@ html {
 .stars {
   position: relative;
   overflow: hidden;
-  padding: 50px;
+  padding: 30px;
 }
 
 .stars::before {
@@ -86,11 +82,15 @@ html {
 
 .holiday {
   padding: 30px;
+  max-width: 720px;
+  margin: auto;
+  position: relative;
 }
 
 .holiday h3,
 .holiday p {
   color: white;
+  max-width: 60ch;
 }
 
 .holiday-header img {
@@ -100,6 +100,7 @@ html {
   position: relative;
   border-radius: 25px 25px 275px 25px;
   padding-bottom: 20px;
+  object-fit: cover;
 }
 
 .holiday-header h3 {
@@ -113,14 +114,15 @@ html {
   padding: 50px;
 }
 
---------- .landing-hero {
+.explore-hero {
   position: relative;
   overflow: hidden;
   padding: 50px;
   top: 80px;
+  min-height: 650px;
 }
 
-.landing-hero::before {
+.explore-hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -131,14 +133,12 @@ html {
   z-index: 1;
 }
 
-.explore-together-top,
-.explore-together-bottom {
+.explore-hero-text {
   background-color: white;
   border-radius: 25px 0px 25px 25px;
 }
 
-.explore-together-top,
-.explore-together-bottom {
+.explore-hero-text {
   position: relative;
   z-index: 2;
   margin: auto;
@@ -146,9 +146,18 @@ html {
   padding: 5px;
 }
 
-.explore-together-top h1,
-.explore-together-top h2,
-.explore-together-bottom p {
+.explore-hero-text h1,
+.explore-hero-text h2 {
   position: relative;
   padding: 10px;
+}
+
+.explore-hero-text h2 {
+  font-size: medium;
+  text-align: center;
+}
+
+.explore-hero-text p {
+  text-align: right;
+  padding-right: 20px;
 }
