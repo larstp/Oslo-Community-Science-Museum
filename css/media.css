@@ -7,6 +7,14 @@
     border-radius: 25px 0px 25px 25px;
     margin: auto;
   }
+
+  .slider {
+    aspect-ratio: 12/10;
+  }
+
+  .slider nav {
+    max-width: none;
+  }
 }
 
 @media (min-width: 600px) {
@@ -68,6 +76,18 @@
 
   .slider {
     height: 350px;
+  }
+
+  .awesome {
+    max-width: 625px;
+  }
+
+  .stars-text-container {
+    left: -83px;
+  }
+
+  .holiday-header img {
+    max-width: 555px;
   }
 }
 
@@ -184,6 +204,10 @@
     background-color: #f9f9f9;
     margin: auto;
     max-width: 1180px;
+  }
+
+  .stars-text-container {
+    left: -183px;
   }
 
   .info-color {

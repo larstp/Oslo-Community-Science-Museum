@@ -121,7 +121,7 @@ textarea {
   justify-content: center;
   margin: auto;
   align-items: center;
-  padding: 0px 50px 0px 50px;
+  padding: 0px 50px 90px 50px;
 }
 
 .calendar-container {
@@ -158,8 +158,6 @@ textarea {
   position: relative;
   margin: auto;
   object-fit: cover;
-  border-radius: 25px 25px 0px 25px;
-  align-self: bottom;
 }
 
 .upcoming h3 {
