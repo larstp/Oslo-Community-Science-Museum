@@ -86,12 +86,15 @@
 }
 
 .spaces-bottom {
-  max-width: 75ch;
+  max-width: 100%;
   margin: auto;
   padding: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #f9f9f9;
+  position: relative;
 }
 
 .spaces-bottom .cta-contrast {

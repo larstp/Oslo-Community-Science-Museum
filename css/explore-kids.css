@@ -117,7 +117,7 @@ html {
 .explore-hero {
   position: relative;
   overflow: hidden;
-  padding: 50px;
+  padding: 10%;
   top: 80px;
   min-height: 650px;
 }
@@ -133,13 +133,29 @@ html {
   z-index: 1;
 }
 
+.explore-hero-text h1,
+.explore-hero-text h2,
+.explore-hero-text p,
 .explore-hero-text {
-  background-color: white;
-  border-radius: 25px 0px 25px 25px;
+  animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .explore-hero-text {
   position: relative;
+  background-color: white;
+  border-radius: 25px 0px 25px 25px;
   z-index: 2;
   margin: auto;
   max-width: 75ch;
@@ -160,4 +176,10 @@ html {
 .explore-hero-text p {
   text-align: right;
   padding-right: 20px;
+}
+
+.top-footer,
+.bottom-footer,
+.copyright {
+  background-color: #24592b;
 }

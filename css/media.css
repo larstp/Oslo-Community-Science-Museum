@@ -196,6 +196,10 @@
     display: none;
   }
 
+  .calendar-mobile {
+    display: none;
+  }
+
   .info {
     display: grid;
     grid-template-columns: auto auto;
