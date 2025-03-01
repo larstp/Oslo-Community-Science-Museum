@@ -1,7 +1,7 @@
-/* Ticket Form */
+/* General form settings */
 
 label {
-  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input,
@@ -17,6 +17,12 @@ form {
   display: flex;
   justify-content: center;
 }
+
+textarea {
+  field-sizing: content;
+}
+
+/* Ticket Form section */
 
 .tickets {
   max-width: 1000px;
@@ -87,10 +93,6 @@ form {
   position: relative;
 }
 
-textarea {
-  field-sizing: content;
-}
-
 .contact a {
   display: block;
   text-align: center;
@@ -124,20 +126,6 @@ textarea {
   padding: 0px 50px 90px 50px;
 }
 
-.calendar-container {
-  height: 190px;
-  width: 300px;
-  margin: auto;
-}
-
-.calendar {
-  position: relative;
-  width: 300px;
-  max-height: 100%;
-  margin: auto;
-  display: flex;
-}
-
 .contact-bottom-text {
   max-width: 45ch;
 }
@@ -158,10 +146,30 @@ textarea {
   position: relative;
   margin: auto;
   object-fit: cover;
+  border-radius: 0px 25px 25px 25px;
 }
 
 .upcoming h3 {
   font-size: x-large;
+}
+
+/* Calendar */
+
+/* NOTE: Can't figure out how to do calendar without JS.
+This is now just a image that replaces where a calendar would be */
+
+.calendar-container {
+  height: 190px;
+  width: 300px;
+  margin: auto;
+}
+
+.calendar {
+  position: relative;
+  width: 300px;
+  max-height: 100%;
+  margin: auto;
+  display: flex;
 }
 
 .calendar-mobile {

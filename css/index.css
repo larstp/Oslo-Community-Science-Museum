@@ -10,6 +10,8 @@ h3 {
   padding: 30px;
 }
 
+/* HERO video. See video.css for more*/
+
 .landing-hero {
   position: relative;
   overflow: hidden;
@@ -49,6 +51,8 @@ h3 {
   padding: 10px;
 }
 
+/* Tagline #2 */
+
 .sidekick {
   text-align: left;
   top: 40px;
@@ -61,6 +65,8 @@ h3 {
   margin: auto;
   object-fit: cover;
 }
+
+/* Explore section*/
 
 .landing-explore {
   padding-bottom: 80px;
@@ -101,6 +107,8 @@ h3 {
   padding-bottom: 90px;
   position: relative;
 }
+
+/* Spaces section */
 
 .landing-spaces {
   display: flex;
@@ -167,6 +175,8 @@ h3 {
   opacity: 1;
 }
 
+/* Events section */
+
 .landing-events {
   max-width: 1440px;
   height: 100%;
@@ -209,6 +219,8 @@ h3 {
   margin: auto;
 }
 
+/* Bottom info section */
+
 .landing-bottom {
   display: flex;
   flex-direction: column;
@@ -220,7 +232,11 @@ h3 {
 }
 
 /* PLANETS AAAAH*/
-/* I think this is the best I can do. I don't understand how to get them to resize without everything breaking, so they're only for desktop view. I've sat with this for 7 hours straight now and I need to move on...*/
+
+/* I think this is the best I can do. 
+I don't understand how to get them to resize without everything breaking, 
+so they're only for desktop view. 
+I've sat with this for 7 hours straight now and I need to move on...*/
 
 .planets-container {
   display: none;
@@ -248,7 +264,9 @@ h3 {
   margin: auto;
 }
 
-/* I  couldn't (and still cant) get the planetary ring to look right. I had to ask CoPilot for help with this element, but it just wanted to make it a square... */
+/* I  couldn't (and still cant) get the planetary ring to look right. 
+I had to ask CoPilot for help with this element, 
+but it just wanted to make it a square... */
 
 .circle {
   width: 589.5px;
@@ -275,6 +293,8 @@ h3 {
   position: absolute;
   border-radius: 9999px;
 }
+
+/*Not following DRY with these as it keeps breaking them*/
 
 .small-image-1 {
   width: 96px;
@@ -307,6 +327,8 @@ h3 {
 .star {
   position: absolute;
 }
+
+/* I'm using fontawesome for the stars */
 
 .star-1 {
   left: 287.57px;

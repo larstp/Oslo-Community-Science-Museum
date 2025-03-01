@@ -1,3 +1,35 @@
+/* NOTE: for some reason, even tho it is linked properly, 
+I had to set the font-family value again on this site for it to display correctly.
+
+I will come back to this and figure out why if I have the time */
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: Xx-large;
+  text-align: left;
+  max-width: 32ch;
+  line-height: 1px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  max-width: 38ch;
+  font-size: medium;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  max-width: 70ch;
+}
+
+/* Hero section */
+
 .involved-hero {
   display: flex;
   flex-direction: column;
@@ -20,9 +52,14 @@
   border-radius: 0px 50px 50px 50px;
 }
 
+/* This part moves things around between mobile and desktop. 
+See media.css for more */
+
 .involved-h1-desktop {
   display: none;
 }
+
+/* Bottom sections is split in four */
 
 .support {
   display: flex;
@@ -62,29 +99,4 @@
   max-width: 300px;
   margin: auto;
   border-radius: 0px 50px 50px 50px;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: Xx-large;
-  text-align: left;
-  max-width: 32ch;
-  line-height: 1px;
-}
-
-h2 {
-  font-family: "Poppins", sans-serif;
-  max-width: 38ch;
-  font-size: medium;
-  text-align: left;
-}
-
-h3 {
-  font-family: "Playfair Display", serif;
-  font-size: x-large;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  max-width: 70ch;
 }

@@ -1,3 +1,44 @@
+/* First some text changes to make it more "blog" -like */
+
+.events {
+  top: 100px;
+  position: relative;
+}
+
+.events div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+  padding: 40px;
+}
+
+.events h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.events h2 {
+  max-width: 38ch;
+  font-size: medium;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.events h3 {
+  font-size: x-large;
+}
+
+.events p {
+  max-width: 70ch;
+}
+
+/* Events section */
+
+/* I've split them into two categories based in which side of the image
+the text is placed*/
+
 .event-left {
   display: flex;
   flex-direction: column;
@@ -46,42 +87,10 @@
   top: 215px !important;
 }
 
+/* Bottom section */
+
 .events-bottom {
   margin: auto;
   text-align: center;
   padding: 0px 50px 170px 50px;
-}
-
-.events {
-  top: 100px;
-  position: relative;
-}
-
-.events div {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  gap: 10px;
-  padding: 40px;
-}
-
-.events h1 {
-  text-align: center;
-  font-size: xx-large;
-}
-
-.events h2 {
-  max-width: 38ch;
-  font-size: medium;
-  text-align: center;
-  margin: auto;
-  padding: 50px;
-}
-
-.events h3 {
-  font-size: x-large;
-}
-
-.events p {
-  max-width: 70ch;
 }

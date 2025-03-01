@@ -2,6 +2,8 @@ h3 {
   font-size: xx-large;
 }
 
+/* "Hero" section (bad name for what it is i guess) */
+
 .visit-hero {
   position: relative;
   margin: auto;
@@ -32,6 +34,8 @@ h3 {
   border-radius: 50px 50px 0px 50px;
 }
 
+/* Admission section */
+
 .admission {
   display: flex;
   flex-direction: row;
@@ -46,6 +50,8 @@ h3 {
 .admission p {
   max-width: 70ch;
 }
+
+/* Accessibility section */
 
 .accessibility {
   display: flex;
@@ -71,6 +77,8 @@ h3 {
   align-self: bottom;
 }
 
+/* Café section */
+
 .food {
   display: flex;
   flex-direction: column;
@@ -90,6 +98,8 @@ h3 {
   max-height: 380px;
   border-radius: 50px 50px 0px 50px;
 }
+
+/* Shop section */
 
 .shop {
   display: flex;

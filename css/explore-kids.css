@@ -1,118 +1,15 @@
+/* Note: I gave this page a darker background color
+to match the "space" themed landing video */
+
 html {
   background-color: #103c47;
 }
 
-.awesome-container {
-  padding: 100px 30px;
-}
+/* Hero Section */
 
-.awesome {
-  max-width: 246px;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  flex-direction: column;
-  padding: 30px;
-  background-color: white;
-  border-radius: 25px 25px 25px 0px;
-}
-
-.awesome h3,
-.stars h3,
-.holiday h3 {
-  font-family: "Slackey", cursive;
-  font-size: 2em;
-  line-height: 30px;
-  text-align: center;
-}
-
-.awesome img {
-  max-width: 89px;
-  max-height: 98px;
-}
-
-.newtons-cradle {
-  float: left;
-}
-
-.woolly-mammoth {
-  float: right;
-}
-
-/*--------------*/
-
-.stars {
-  position: relative;
-  overflow: hidden;
-  padding: 30px;
-}
-
-.stars::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.stars-text {
-  position: relative;
-  z-index: 2;
-  margin: auto;
-  max-width: 217px;
-  padding: 5px;
-  background-color: white;
-  border-radius: 25px 25px 0px 25px;
-}
-
-.stars-text p,
-.stars-text h3 {
-  position: relative;
-  padding: 10px;
-}
-
-.stars-text-container {
-  position: relative;
-  left: 20px;
-  padding-right: 100px;
-}
-
-.holiday {
-  padding: 30px;
-  max-width: 720px;
-  margin: auto;
-  position: relative;
-}
-
-.holiday h3,
-.holiday p {
-  color: white;
-  max-width: 60ch;
-}
-
-.holiday-header img {
-  float: left;
-  width: 100%;
-  height: 217px;
-  position: relative;
-  border-radius: 25px 25px 275px 25px;
-  padding-bottom: 20px;
-  object-fit: cover;
-}
-
-.holiday-header h3 {
-  float: right;
-  max-width: 7ch;
-}
-
-.kids-cta-bottom {
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-}
+/* I struggled a lot with animating this, 
+and in the end couldn't manage within the timeframe, 
+so I replaced it with a video */
 
 .explore-hero {
   position: relative;
@@ -177,6 +74,126 @@ html {
   text-align: right;
   padding-right: 20px;
 }
+
+/* Awesome section */
+
+.awesome-container {
+  padding: 100px 30px;
+}
+
+.awesome {
+  max-width: 246px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  border-radius: 25px 25px 25px 0px;
+}
+
+.awesome h3,
+.stars h3,
+.holiday h3 {
+  font-family: "Slackey", cursive;
+  font-size: 2em;
+  line-height: 30px;
+  text-align: center;
+}
+
+.awesome img {
+  max-width: 89px;
+  max-height: 98px;
+}
+
+.newtons-cradle {
+  float: left;
+}
+
+.woolly-mammoth {
+  float: right;
+}
+
+/* Young Stars section */
+
+.stars {
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.stars-text {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  max-width: 217px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px 25px 0px 25px;
+}
+
+.stars-text p,
+.stars-text h3 {
+  position: relative;
+  padding: 10px;
+}
+
+.stars-text-container {
+  position: relative;
+  left: 20px;
+  padding-right: 100px;
+}
+
+/* Holiday Club section */
+
+.holiday-header img {
+  float: left;
+  width: 100%;
+  height: 217px;
+  position: relative;
+  border-radius: 25px 25px 275px 25px;
+  padding-bottom: 20px;
+  object-fit: cover;
+}
+
+.holiday-header h3 {
+  float: right;
+  max-width: 7ch;
+}
+
+.holiday {
+  padding: 30px;
+  max-width: 720px;
+  margin: auto;
+  position: relative;
+}
+
+.holiday h3,
+.holiday p {
+  color: white;
+  max-width: 60ch;
+}
+
+/* Special btn adjustment*/
+
+.kids-cta-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+/* Top footer in different color to contrast the dark background*/
 
 .top-footer,
 .bottom-footer,

@@ -1,3 +1,5 @@
+/* Note that the page layout changes a bit between viewport sizes. See HTML and media queries*/
+
 h1 {
   font-size: 30px;
 }
@@ -58,6 +60,16 @@ h1 {
   word-wrap: break-word;
 }
 
+.researchers-images {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  margin: auto;
+  max-width: 90ch;
+  padding-bottom: 170px;
+}
+
 .researchers-logos-top {
   display: flex;
   flex-wrap: wrap;
@@ -95,16 +107,6 @@ h1 {
   flex: 1 1 calc(33.33% - 20px);
   justify-content: center;
   text-align: center;
-}
-
-.researchers-images {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 20px;
-  margin: auto;
-  max-width: 90ch;
-  padding-bottom: 170px;
 }
 
 .researchers-logos {
