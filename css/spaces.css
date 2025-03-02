@@ -73,6 +73,18 @@ to totally nerd out on the exhibition design */
   padding: 5px;
 }
 
+.cosmo-top:hover,
+.cosmo-bottom:hover {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  max-width: 75ch;
+  padding: 5px;
+  background-color: black;
+  border-radius: 0 50px 50px 50px;
+  transition: 500ms;
+}
+
 .cosmo-top h3,
 .cosmo-top h2,
 .cosmo-bottom p {
