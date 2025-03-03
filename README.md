@@ -25,6 +25,8 @@ https://www.figma.com/proto/NSk6DcGam0t8CFTEnpJ6B2/Community-Science-Museum?page
 Here's the Figma prototype for the high fidelity wireframes (includes both desktop and mobile versions. (A bit fiddly due to time constraints):
 https://www.figma.com/proto/NSk6DcGam0t8CFTEnpJ6B2/Community-Science-Museum?page-id=1%3A4&node-id=1-5&viewport=50%2C270%2C0.4&t=q8RU30LNH2h4Nr3h-1&scaling=contain&content-scaling=fixed
 
+And here's the link to the stylesheet: https://www.figma.com/proto/NSk6DcGam0t8CFTEnpJ6B2/Community-Science-Museum?node-id=1311-2849&t=tvEd0fUZ8vEv4lZ1-1&scaling=min-zoom&content-scaling=fixed&page-id=631%3A1776
+
 
 Page layout:
 - Home (index.html)
