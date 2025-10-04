@@ -4,14 +4,6 @@
 
 ### The site is available at: [larstp.github.io/Oslo-Community-Science-Museum](https://larstp.github.io/Oslo-Community-Science-Museum)
 
-An engaging, informative, and user-friendly website for a new interactive science museum opening in Oslo. The site is fully static, designed for accessibility, and optimized for GitHub Pages hosting.11
-
-This is a repo for the Semester Project 1 at NOROFF FED1, OCT24FT.
-
-In this assignment we are to design and program a webpage for a fictitious Community Science Museum, with a focus on teaching kids science.
-
-The project is to show that we understand branding, target audience, hierarchy, semantic code, DRY principle, image optimization and everything else we have learned so far this semester.
-
 ## Contents
 
 <details>
@@ -34,6 +26,16 @@ The project is to show that we understand branding, target audience, hierarchy, 
 </details>
 
 ## Description
+
+An engaging, informative, and user-friendly website for a new interactive science museum opening in Oslo. The site is fully static, designed for accessibility, and optimized for GitHub Pages hosting.11
+
+This is a repo for the Semester Project 1 at NOROFF FED1, OCT24FT.
+
+In this assignment we are to design and program a webpage for a fictitious Community Science Museum, with a focus on teaching kids science.
+
+The project is to show that we understand branding, target audience, hierarchy, semantic code, DRY principle, image optimization and everything else we have learned so far this semester.
+
+---
 
 Oslo Community Science Museum is a modern, interactive website for a new science museum in Oslo. The project demonstrates skills in:
 
