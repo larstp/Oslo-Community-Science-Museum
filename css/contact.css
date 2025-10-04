@@ -109,11 +109,18 @@ textarea {
 .contact-top {
   display: flex;
   flex-direction: row;
-  justify-content: top;
+  justify-content: center;
   margin: auto;
   width: 100%;
-  align-items: top;
+  align-items: center;
   flex-wrap: wrap;
+}
+
+.tickets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
 }
 
 /* Bottom Part */
