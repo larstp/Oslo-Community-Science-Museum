@@ -1,8 +1,7 @@
 # Oslo Community Science Museum
 
 <p align="center">
-  <img src="images/assigned/logo/open-science-735787.png
-" alt="ECO logo" width="450" />
+  <img src="images/assigned/logo/open-science-735787.png" alt="OCSM logo" width="450" />
 </p>
 
 ### The site is available at: [larstp.github.io/Oslo-Community-Science-Museum](https://larstp.github.io/Oslo-Community-Science-Museum)
